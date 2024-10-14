@@ -58,13 +58,19 @@
             border-radius: 5px;
             height: 45px;
         }
-        .btn-primary {
-            background-color: #00796b;
+        .btn-primary, .btn-secondary {
             border: none;
             border-radius: 5px;
             height: 45px;
             font-size: 1rem;
             width: 100%;
+            margin-top: 10px;
+        }
+        .btn-primary {
+            background-color: #00796b;
+        }
+        .btn-secondary {
+            background-color: #ff9800;
         }
         .forgot-password {
             text-align: center;
@@ -125,13 +131,14 @@
                     <input type="password" class="form-control" id="password" placeholder="••••••••">
                 </div>
                 <button type="submit" class="btn btn-primary btn-block">Login</button>
+                <button type="button" class="btn btn-secondary btn-block">Cadastre-se</button>
             </form>
             <div class="forgot-password">
                 <a href="#">Perdeu a senha?</a>
             </div>
         </div>
         <div class="right-panel">
-            <h2><span class="highlight">Trabalha</span> Comigo &amp; </h2>
+            <h2><span class="highlight">Trabalha</span> Comigo &amp;</h2>
             <p>Selecionamos os melhores projetos para os melhores profissionais do mercado</p>
         </div>
     </div>
